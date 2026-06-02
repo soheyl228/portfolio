@@ -25,7 +25,7 @@ export default function About() {
           <div className={styles.stats} role="list">
             {[
               { value: '10+', label: 'Projekt slutförda' },
-              { value: '2+', label: 'Års erfarenhet' },
+              { value: '1', label: 'Års erfarenhet' },
               { value: '100%', label: 'Engagemang' },
             ].map(({ value, label }) => (
               <div key={label} className={styles.stat} role="listitem">
